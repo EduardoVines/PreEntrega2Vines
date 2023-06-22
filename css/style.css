@@ -1,0 +1,180 @@
+
+/* font-family: 'EB Garamond', serif;
+
+font-family: 'Josefin Sans', sans-serif; */
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-image:url("../galeria.htm/imagen.barra.menu.png");
+    background-size: cover;
+    
+
+}
+
+.imgindex{
+    width: 1262px;
+    height: 600px;
+
+}
+
+
+
+
+
+img{
+    width: 450px;
+    height: 350px;
+}
+
+
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+  
+}
+
+header nav ul li{
+    text-align: center;
+    color: black;
+    font-size: medium;
+    font-weight: 200;
+    background-color: rgba(24, 62, 173, 0.16);
+    
+
+   
+  
+
+}
+
+a{
+    text-align: center;
+    color: black;
+    font-size: medium;
+    font-weight: 200;
+    background-color: rgba(24, 62, 173, 0.16);
+    border: 3px solid transparent;
+
+}
+
+a:hover{
+    color: blueviolet;
+    background-color: brown;
+    border: 3px blue solid;
+}
+
+main h1{
+    text-align: center;
+    color: rgb(4, 4, 5);
+    background-color: rgb(98, 118, 206);
+    font-family: 'EB Garamond', serif;
+    font-weight: 500;
+    padding: 30px;
+
+}
+
+main{
+    background-color: rgba(255, 235, 205, 0.55);    
+
+} 
+
+.flex1{
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+a{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+footer{
+    color: rgba(21, 54, 82, 0.952);
+    background-size: cover;
+    background-color: rgb(197, 185, 158);
+    border:double 2px black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+p{
+    text-align: center;
+    overflow: scroll;
+    font-family: 'Josefin Sans', sans-serif; 
+    font-weight: 200;
+    height: 100px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.formato_uno {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    column-gap: 30px;
+    row-gap: 30px;
+    
+
+}
+
+
+
+.formato_uno section p{
+    text-align: center;
+    overflow: scroll;
+    font-family: 'Josefin Sans', sans-serif; 
+    font-weight: 200;
+    height: 100px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.p-instalaciones {
+    text-align: center;
+    overflow: scroll;
+    font-family: 'Josefin Sans', sans-serif; 
+    font-weight: 200;
+    height: 100px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+
+
+@media (max-width: 480px){
+    .formato_uno{
+        display: flex;
+        flex-direction: column;
+
+    }
+    
+
+    
+}
+
+
+
+
+
+
+
+
